@@ -510,30 +510,4 @@ Before submitting, verify:
 **Port Already in Use:**
 - Change port in `run.py` or kill the process using port 8000
 
-### Frontend Issues
-
-**Cannot connect to backend:**
-- Verify backend is running on port 8000
-- Check CORS configuration in backend
-- Verify API base URL in `src/services/api.js`
-
-**Build Errors:**
-- Delete `node_modules` and `package-lock.json`
-- Run `npm install` again
-
-## 📝 License
-
-This project is created for educational purposes.
-
-## 👨‍💻 Support
-
-If you encounter any issues:
-1. Check the troubleshooting section
-2. Verify all prerequisites are installed
-3. Ensure all environment variables are set correctly
-4. Check that both servers are running
-
----
-
-**Happy Coding! 🚀**
 
